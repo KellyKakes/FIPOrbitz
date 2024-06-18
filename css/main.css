@@ -1,0 +1,85 @@
+/*
+    CSS Guide
+
+    1.  General Styles (Normalize)
+
+ */
+
+
+ /* 1. ---General Styles--- */
+
+ body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ /* ---General rules - scales images, videos to size of container--- */
+ img, embed, object, video, picture {
+    max-width: 100%;
+  }
+ 
+ p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ section h2 {
+    padding-left: 15px;
+  }
+
+  #heroImage {
+    height: 400px;
+  }
+
+
+
+  header {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+#aboutUs {
+    height: 300px;
+    grid-column-start: 3;
+    margin-top: 50px;
+}
+
+#infoBox {
+    height: 200px;
+    grid-column-start: 3;
+    margin-top: 30px;
+}
+
+#pictureBox {
+    height: 300px;
+    grid-column-start: 3;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#textBox {
+    height: 200px;
+    grid-column-start: 3;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
